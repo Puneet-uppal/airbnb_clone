@@ -1,0 +1,266 @@
+body{
+    margin-top:0;
+    margin-left:0;
+    margin-bottom: 0;
+    background-color: black;
+    color: white;
+}
+.full-nav{
+    /* overflow: hidden; */
+    width: 100vw;
+    position: sticky;
+    top:0;
+    /* border:1px solid lightgrey; */
+    background-color: white;
+    /* margin-top:10px; */
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.nav{
+    border:1px solid black;
+    /* margin-top: 30px; */
+    /* margin: 10px auto; */
+    margin-bottom: none;
+    border: none;
+    width: 1120px;
+    height: 30px;
+    /* background-color: rgb(250, 15, 15); */
+    padding: 10px;
+    /* position: sticky; */
+    top:0;
+    display: flex;
+    gap: 5px;
+    /* flex-wrap: wrap; */
+    justify-content: space-evenly;
+    align-items: center;
+    /* justify-content: space-evenly; */
+}
+.logo{
+    border: none;
+    width: 150px;
+    height:35px;
+    margin-left: 0;
+    /* background-color: red;   */
+    
+}
+.img{
+    color: red;
+    text-align: center;
+}
+.input{
+    /* border: 1px solid lightgrey; */
+    padding: 16px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input1{
+    width:300px;
+    height: 30px;
+    border-radius: 40px;
+    border: 1px solid lightgrey;
+    background-color: white;
+}
+.size{
+    height: 16px;
+    margin-left: -30px
+}
+.links{
+    display: flex;
+    gap:20px;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    padding: 8px;
+    border-radius: 40px;
+    border: 1px solid lightgrey;
+    background-color: white;
+}
+.btn2{
+    border:1px solid lightgrey;
+    border-radius: 20px;
+    width: 60px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:5px;
+    padding: 4px;
+}
+.bt1{
+    height:20px;
+}
+.bt2{
+    height: 20px;
+}
+.link-logo{
+    margin: 15px;
+    display: flex;
+    gap:10px;
+    justify-content: space-evenly;
+    align-items: center;
+    position: sticky;
+}
+.small{
+    /* border:1px solid lightgrey;  */
+    background-color: white;
+    text-align: center; 
+    margin-bottom: 5px;
+}
+.small p{
+    font-size: x-small;
+    margin:5px;
+    color:black;
+}
+.card{
+
+    width:100%;
+    margin-left:4px;
+}
+.link-logo img{
+    width: 30px;
+    height: 30px;
+}
+.greater{
+    border-radius: 80px;
+    border:1px solid lightgrey;
+    background-color: white;
+
+}
+.great{
+    width:2px;
+}
+.circuit{
+    background-color: white;
+    border: 1px solid lightgrey;
+    border-radius: 20px;
+    display: flex;
+    gap:5px;
+    justify-content: center;
+    align-items: center;
+
+}
+.filter{
+    width: px;
+    height: 5px;
+}
+.toggle{
+    text-align: center;
+    /* border:1px solid lightgrey; */
+    width: 600px;
+    margin-top:30px;
+    margin-left: 300px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inpu1{
+    width:500px;
+    height: 40px;
+    border-radius: 10px;
+    border:1px solid lightgrey;
+    margin-top: 10px;  
+}
+.heading{
+    font-size: x-large;
+    position: absolute;
+    left: 60px;
+    top:0;
+    color:black;
+}
+.base{
+    font-size: larger;
+    font-weight: lighter;
+    position:absolute;
+    left:300px;
+    top:0;
+    color:black;
+}
+.cards{
+    border:1px solid lightgrey;
+    width:270px;
+    border-radius:16px;
+    /* margin:5px; */
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding:2px;
+    background-color: white;
+    color:black;
+    margin-left:5px;
+}
+.i1{
+    width:100%;
+    height: 50%;
+    border-radius:16px;
+}
+.description{
+    font-size: small;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: first baseline;
+    padding:5px;
+}
+.star{
+    height:12px;
+}
+.heart{
+    height:18px;
+}
+.relative{
+    position:relative;
+}
+.absolute{
+    position:absolute;
+    top:5px;
+    right:5px;
+}
+.flexbox{
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.bottom-nav{
+    /* border:1px solid lightgrey; */
+    margin-top: 45px;
+    background-color: white;
+    padding: 10px;
+    position: sticky;
+    bottom:0;
+    display:flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+.left{
+    display: flex;
+    gap:10px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.right{
+    display: flex;
+    gap:10px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.support{
+    height:16px;
+    width:16px;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+.black{
+    border:none;
+    background-color: white;
+}
